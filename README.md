@@ -91,7 +91,7 @@ Before beginning, ensure:
 5. Configure pricing/trial if required.
 
 **Screenshots**
-![Enable Defender for SQL](screenshots/defender-sql.png)
+![Enable Defender for SQL](screenshots/DefenderforSQL)
 
 ---
 
