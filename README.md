@@ -26,7 +26,6 @@
 - [Validation](#-validation)
 - [Cleanup](#-cleanup)
 - [Audit & Security Outcomes](#-audit--security-outcomes)
-- [References](#-references)
 
 ---
 
@@ -140,7 +139,19 @@ Before beginning, ensure:
 
 ---
 
+
+## 🔍 Audit & Security Outcomes
+
+- Deployed a hardened Azure SQL environment
+- Enabled threat protection with Microsoft Defender for SQL
+- Classified sensitive data for compliance
+- Configured auditing at server and database levels
+
+
+---
+
 ## 🧹 Cleanup
+
 
 To avoid unnecessary charges:
 
@@ -149,16 +160,8 @@ To avoid unnecessary charges:
 
 ```powershell
 Remove-AzResourceGroup -Name "AZ500LAB11" -Force -AsJob
-
+```
 ---
-
- 🔍 Audit & Security Outcomes
-
-After completion, I have:
-- Deployed a hardened Azure SQL environment
-- Enabled threat protection with Microsoft Defender for SQL
-- Classified sensitive data for compliance
-- Configured auditing at server and database levels
 
 Created by: Olebogeng Sebogodi
 GitHub: https://github.com/Olebxgeng
