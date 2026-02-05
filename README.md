@@ -1,4 +1,4 @@
-# 🛡️ AZ-500 Lab 05 — Securing Azure SQL Database
+# 🛡️ AZ-500 Lab — Securing Azure SQL Database
 
 ![Azure](https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoftazure)
 ![Security](https://img.shields.io/badge/Security-Azure%20SQL%20DB-red)
