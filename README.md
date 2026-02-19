@@ -6,7 +6,6 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 > **Author:** Olebogeng Sebogodi
-> **Course:** Microsoft AZ-500 — Azure Security Technologies  
 > **Lab:** Securing Azure SQL Database  
 > **Region Used:** East US 2
 
