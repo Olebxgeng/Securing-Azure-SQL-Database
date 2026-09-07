@@ -1,4 +1,4 @@
-# 🛡️ AZ-500 Lab — Securing Azure SQL Database
+# AZ-500 Lab — Securing Azure SQL Database
 
 ![Azure](https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoftazure)
 ![Security](https://img.shields.io/badge/Security-Azure%20SQL%20DB-red)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [Lab Overview](#-lab-overview)
 - [Objectives](#-objectives)
@@ -28,13 +28,13 @@
 
 ---
 
-## 🧠 Lab Overview
+## Lab Overview
 
 This lab was created to secure a Azure SQL Database by implementing advanced protection, data classification, and auditing to safeguard against SQL injection, data leakage, and support compliance requirements.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 By completing this lab, you will:
 
@@ -45,7 +45,7 @@ By completing this lab, you will:
 
 ---
 
-## ✅ Prerequisites
+## Prerequisites
 
 Before beginning, ensure:
 
@@ -56,7 +56,7 @@ Before beginning, ensure:
 
 ---
 
-## 🧩 Architecture Diagram
+## Architecture Diagram
 
 > _High-level overview of the security controls implemented in this lab_
 
@@ -81,7 +81,7 @@ Before beginning, ensure:
 
 ---
 
-### 🔐 Task 2 — Configure Advanced Data Protection
+### Task 2 — Configure Advanced Data Protection
 
 1. Go to Resource groups → (resource created in previous step).  
 2. Select the SQL Server created by the template.  
@@ -94,7 +94,7 @@ Before beginning, ensure:
 
 ---
 
-### 🧾 Task 3 — Configure Data Classification
+### Task 3 — Configure Data Classification
 
 1. SQL Server → SQL Databases.  
 2. Select your database .  
@@ -107,9 +107,9 @@ Before beginning, ensure:
 ![Data Classification](screenshots/ClassifiedData.png)
 ---
 
-### 📊 Task 4 — Configure Auditing
+### Task 4 — Configure Auditing
 
-#### 🧪 Server Level
+####  Server Level
 1. On the SQL Server blade → Auditing.  
 2. Enable Azure SQL Auditing.  
 3. Choose Storage and create a new storage account for logs.  
@@ -126,7 +126,7 @@ Before beginning, ensure:
 
 ---
 
-## 🧪 Validation
+## Validation
 
 - Confirm the database was created successfully.  
 - Check that Defender for SQL is enabled.  
@@ -139,7 +139,7 @@ Before beginning, ensure:
 ---
 
 
-## 🔍 Audit & Security Outcomes
+## Audit & Security Outcomes
 
 - Deployed a hardened Azure SQL environment
 - Enabled threat protection with Microsoft Defender for SQL
@@ -149,7 +149,7 @@ Before beginning, ensure:
 
 ---
 
-## 🧹 Cleanup
+## Cleanup
 
 
 To avoid unnecessary charges:
